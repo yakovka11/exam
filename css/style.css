@@ -1,0 +1,284 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Josefin Sans', sans-serif;
+}
+body * { box-sizing: border-box }
+img {
+  width: auto;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, h3, h4 {
+  margin: 0;
+}
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+section.head {
+  background: url("../img/header_bg.png") no-repeat 0 0;
+  padding-top: 260px;
+  padding-bottom: 110px;
+  text-align: center;
+}
+section.head h1 {
+  font-size: 48px;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+section.head h3 {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 300;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+section.head form {
+  position: relative;
+  margin-bottom: 115px;
+}
+section.head form input {
+  width: 500px;
+  padding: 19px 80px;
+}
+section.head form input::placeholder {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #999999;
+}
+section.head form button {
+  position: absolute;
+  right: 308px;
+  top: 4px;
+  border: none;
+  background-color: #5474fd;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'Aleo', sans-serif;
+  color: #FFFFFF;
+  padding: 15px 19px 15px 32px;
+}
+section.head form button:hover {
+  box-shadow: 0px 0px 10px #616161;
+  transition: 0.5s;
+}
+section.head form button img {
+  vertical-align: middle;
+  margin-left: 7px;
+}
+section.head a.scroll {
+  font-size: 14px;
+  color: #ffffff;
+}
+section.head a.scroll img {
+  margin: 0 auto;
+  padding-top: 10px;
+}
+header {
+  background-color: #5474fd;
+}
+header .header-content {
+  overflow: hidden;
+  text-align: left;
+}
+header .header-content h2 {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 400;
+  padding: 25px;
+  display: inline-block;
+}
+header .header-content nav {
+  float: right;
+  padding: 30px;
+}
+header .header-content nav a {
+  font-family: 'Aleo', sans-serif;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-left: 20px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  border-radius: 40%;
+}
+header .header-content nav a:hover {
+  border: 1px solid #c2c2c2;
+  border-radius: 30px;
+  background-color: rgba(62, 85, 183, 0.71);
+  transition: 0.5s;
+}
+
+section.why-us {
+  background: url("../img/castle.png") no-repeat 0 0;
+  overflow: hidden;
+  padding-bottom: 120px;
+}
+section.why-us .why-us-info {
+  display: inline-block;
+  width: 45%;
+  text-align: left;
+}
+section.why-us .why-us-info h2 {
+  padding-top: 190px;
+  padding-bottom: 60px;
+  font-family: 'Aleo', sans-serif;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+section.why-us .why-us-info p {
+  font-size: 16px;
+  color: #FFFFFF;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+section.why-us .why-us-info button {
+  border: none;
+  background-color: #5474fd;
+  font-family: 'Aleo', sans-serif;
+  font-size: 16px;
+  padding: 15px 37px;
+  margin-top: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+section.why-us .why-us-info button:hover {
+  box-shadow: 0px 0px 10px #c2c2c2;
+  transition: 0.5s;
+}
+section.why-us .gallery {
+  float: right;
+  width: 45%;
+  text-align: right;
+  padding-top: 110px;
+}
+section.why-us .gallery img:first-child {
+  position: relative;
+  right: 125px;
+}
+section.icons {
+  background-color: #333333;
+  text-align: center;
+}
+section.icons .icon-item {
+  display: inline-block;
+  width: 30%;
+  padding: 95px 0 110px 0;
+}
+section.icons .icon-item h3 {
+  font-family: 'Aleo', sans-serif;
+  font-size: 36px;
+  color: #FFFFFF;
+  padding-top: 30px;
+  text-transform: capitalize;
+}
+section.spain {
+  background: url("../img/mountains.png") no-repeat 0 0;
+  padding: 120px 0 205px 0;
+  overflow: hidden;
+}
+section.spain .spain-info {
+  float: right;
+  padding: 40px 30px 49px 30px;
+  background-color: rgba(36,34,35, 0.9);
+  color: #FFFFFF;
+  width: 40%;
+  text-align: right;
+}
+section.spain .spain-info h4 {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 29px;
+  text-align: left;
+}
+section.spain .spain-info h3 {
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+  text-align: left;
+}
+section.spain .spain-info p {
+  font-size: 16px;
+  font-weight: 300;
+  padding-bottom: 45px;
+  text-align: left;
+}
+section.spain .spain-info button {
+  border: none;
+  background-color: #5474fd;
+  font-family: 'Aleo', sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 15px 60px;
+}
+section.spain .spain-info button:hover {
+  box-shadow: 0 0 10px #c2c2c2;
+  transition: 0.5s;
+}
+section.feedback {
+  background: url("../img/tourist_bg.png") no-repeat 0 0;
+  padding-bottom: 180px;
+}
+section.feedback h2 {
+  font-family: 'Aleo', sans-serif;
+  font-size: 36px;
+  font-weight: 300;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 115px 0 95px 0;
+}
+section.feedback .feedback-item {
+  background-color: #333333;
+  overflow: hidden;
+  color: #FFFFFF;
+  padding-right: 45px;
+}
+section.feedback .feedback-item img {
+  float: left;
+  margin-right: 60px;
+}
+section.feedback .feedback-item h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 50px 0 40px 0;
+}
+section.feedback .feedback-item p sup i {
+  color: #5474fd;
+  font-size: 16px;
+}
+section.feedback .feedback-item p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 20px;
+}
+section.footer {
+  background-color: #232323;
+  text-align: center;
+  padding: 110px 0 40px 0;
+}
+section.footer h2 {
+  font-size: 24px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+section.footer p {
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 300;
+}
+section.footer .footer_icons {
+  padding-right: 15px;
+}
+section.footer .footer_icons a {
+  margin-left: 15px;
+}
