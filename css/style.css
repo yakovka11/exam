@@ -20,6 +20,7 @@ h1, h2, h3, h4 {
 }
 section.head {
   background: url("../img/header_bg.png") no-repeat 0 0;
+  background-size: cover;
   padding-top: 260px;
   padding-bottom: 110px;
   text-align: center;
@@ -116,6 +117,7 @@ header .header-content nav a:hover {
 
 section.why-us {
   background: url("../img/castle.png") no-repeat 0 0;
+  background-size: cover;
   overflow: hidden;
   padding-bottom: 120px;
 }
@@ -179,6 +181,7 @@ section.icons .icon-item h3 {
 }
 section.spain {
   background: url("../img/mountains.png") no-repeat 0 0;
+  background-size: cover;
   padding: 120px 0 205px 0;
   overflow: hidden;
 }
@@ -224,6 +227,7 @@ section.spain .spain-info button:hover {
 }
 section.feedback {
   background: url("../img/tourist_bg.png") no-repeat 0 0;
+  background-size: cover;
   padding-bottom: 180px;
 }
 section.feedback h2 {
